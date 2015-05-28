@@ -18,6 +18,6 @@ sudo ee stack install || exit 1
 
 myecho
 
-sudo ee site create easyengine.com --wpfc || exit 1
+sudo ee site create work.local --wpfc --hhvm --pagespeed || exit 1
 
 myecho
